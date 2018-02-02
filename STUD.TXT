@@ -1,0 +1,295 @@
+ What is your comment on the below C statement?
+      signed int *p=(int*)malloc(sizeof(unsigned int));
+a) Improper type casting
+b) Would throw Runtime error
+c) Memory will be allocated but cannot hold an int value in the memory
+d) No issue with statement 
+@d
+What will be printed for the below statement?
+
+#include<stdio.h>
+
+main()
+{
+   printf("%d",strcmp("strcmp()","strcmp()"));
+}
+a) 0
+b)1
+c) -1
+d) Invalid use of strcmp() function
+@a
+What is the built in library function to adjust the allocated dynamic memory size.
+a) malloc
+b) calloc
+c) realloc
+d) resize
+@c
+The default executable generation on UNIX for a C program is 
+a) a.exe
+b) a
+c) a.out
+d) out.a
+@c
+A local variable is stored in ___
+a) Code segment
+b) Stack segment
+c) Heap segment
+d) None of the above
+@b
+How do you specify double constant 3.14 as a long double?
+a) By using LD after 3.14
+b) By using L after 3.14
+c) By using DL after 3.14
+d) By using LF after 3.14
+@b
+Similarity between a structure, union and enumeration,
+a) All are helpful in defining new variables
+b) All are helpful in defining new data types
+c) All are helpful in defining new pointers
+d) All are helpful in defining new structures
+@b
+What actually get pass when you pass an array as a function argument?
+a)First value of elements in array
+b) Base address of the array
+c) All value of element in array
+d) Address of the last element of array
+@b
+To print a float value which format specifier can be used?
+a) %f
+b) %lf
+c) %Lf
+d) None of the above
+@a
+According to ANSI specification, how to declare main () function with command-line arguments?
+a) int main(int argc, char *argv[])
+b) int char main(int argc, *argv)
+c) int main()
+   {
+       Int char (*argv argc);
+   }
+d) None of the above
+@a
+The keyword used to transfer control from a function back to the calling function is
+a) switch
+b)goto
+c)go back
+d)return
+@d
+What is (void*)0?
+a)Representation of NULL pointer
+b)Representation of void pointer
+c)Error
+d)None of above
+@a
+In which header file is the NULL macro defined?
+a)stdio.h
+b)stddef.h
+c)stdio.h and stddef.h
+d)math.h
+@c
+How many bytes are occupied by near, far and huge pointers (DOS)?
+a)near=2 far=4 huge=4
+b)near=4 far=8 huge=8
+c)near=2 far=4 huge=8
+d)near=4 far=4 huge=8
+@a
+If a variable is a pointer to a structure, then which of the following operator is used to access data members of the structure through the pointer variable?
+a).
+b)&
+c)*
+d)->
+@d
+What would be the equivalent pointer expression for referring the array element a[i][j][k][l]
+a)((((a+i)+j)+k)+l)
+b)*(*(*(*(a+i)+j)+k)+l)
+c)(((a+i)+j)+k+l)
+d)((a+i)+j+k+l)
+@b
+A pointer is
+a)A keyword used to create variables
+b)A variable that stores address of an instruction
+c)A variable that stores address of other variable
+d)All of the above
+@c
+The operator used to get value at address stored in a pointer variable is
+a)*
+b)&
+c)&&
+d)||
+@a
+Linker generates ___ file.
+a) Object code
+b) Executable code
+c) Assembly code
+d) None of the above.
+@b
+What do the following statement defines?
+     int *ptr[10];
+a) ptr is a pointer to an array of 10 integer pointers.
+b) ptr is a array of 10 pointers to integers
+c) ptr is a array of 10 integer pointers
+d) None of the above
+@b
+How will you free the allocated memory ?
+a) remove(var-name);
+b) free(var-name);
+c) delete(var-name);
+d)dalloc(var-name);
+@b
+What is the similarity between a structure, union and enumeration?
+a) All of them let you define new values
+b) All of them let you define new data types
+c) All of them let you define new pointers
+d) All of them let you define new structures
+@b
+Which of the following statements correct about the below code?
+       maruti.engine.bolts=25;
+a) Structure bolts is nested within structure engine.
+b) Structure engine is nested within structure maruti.
+c) Structure maruti is nested within structure engine.
+d) Structure maruti is nested within structure bolts.
+@b
+The library function strrchr() finds the first occurrence of a substring in another string.
+a) Yes
+b) Strstr()
+c) strchr()
+d) strnset()
+@b
+Which of the following functions disconnects the stream from the file pointer.
+a) fremove()
+b) fclose()
+c) remove()
+d) file pointer to be set to NULL
+@b
+Choose the correct function which can return a reminder by dividing -10.0/3.0?
+a) rem = mod(-10.0, 3.0);
+b) rem = fmod(-10.0, 3.0);
+c) rem = modf(-10.0, 3.0);
+d) Division of floating point values can’t return reminder
+@b
+Which of the following variable cannot be used by switch-case statement?
+a) char
+b) int
+c) float
+d) Double
+@c
+During preprocessing, the code “#include<stdio.h>” gets replaced by the contents of the file stdio.h.
+a) Yes
+b) During linking the code “#include<stdio.h>” replaces by stdio.h
+c) During execution the code “#include<stdio.h>” replaces by stdio.h
+d) During editing the code “#include<stdio.h>” replaces by stdio.h
+@a
+In the given below statement, what does the “arr” indicate?
+      char *arr[30];
+a) arr is a array of function
+b) arr is a array of 30 characters
+c) arr is a pointer to an array
+d) arr is a array of 30 character pointers
+@d
+Which header file supports the functions - malloc() and calloc()?
+a) stdlib.h
+b) memory.h
+c) math.h
+d) stdio.h
+@a
+The maximum combined length of the command-line arguments as well as the spaces between adjacent arguments is – i) 120 characters, ii) 56 characters, iii) Vary from one OS to another
+a) i
+b) i, ii
+c) i, ii, iii
+d) iii
+@d
+In which numbering system can the binary number 1011011111000101 be easily converted to?
+a) Decimal system
+b) Hexadecimal system
+c) Octal system
+d) No need to convert
+@b
+Which bitwise operator is suitable for turning off a particular bit in a number?
+a) && operator
+b) & operator
+c) || operator
+d) ! operator
+@b
+Which bitwise operator is suitable for turning on a particular bit in a number?
+a) && operator
+b) & operator
+c) || operator
+d) | operator
+@d
+Which bitwise operator is suitable for checking whether a particular bit is on or off?
+a) && operator
+b) & operator
+c) || operator
+d) ! operator
+@b
+What will be the output of the program?
+ #include<stdio.h>
+ int main()
+  {
+      unsigned char i = 0x80;
+      printf("%d\n", i<<1);
+      return 0;
+  }
+a) 0
+b) 256
+c) 100
+d) 80
+@b
+What will be the output of the program ?
+ #include<stdio.h>
+ int main()
+  { 
+      int i=32, j=0x20, k, l, m;
+      k=i|j;
+      l=i&j;
+      m=k^l;
+      printf("%d, %d, %d, %d, %d\n", i, j, k, l, m);
+      return 0;
+  }
+a) 0, 0, 0, 0, 0
+b) 0, 32, 32, 32, 32
+c) 32, 32, 32, 32, 0
+d) 32, 32, 32, 32, 32
+@c
+What will be the output of the program?
+ #include<stdio.h>
+ int main()
+  {
+      printf("%d %d\n", 32<<1, 32<<0);
+      printf("%d %d\n", 32<<-1, 32<<-0);
+      printf("%d %d\n", 32>>1, 32>>0);
+      printf("%d %d\n", 32>>-1, 32>>-0);
+      return 0;
+  }
+a) Garbage values
+b) 64 32
+     0 32
+     16 32
+     0 32
+c) All zeros
+d) 8 0
+     0 0
+     32 0
+     0 16
+@b
+What will be the output of the program?
+    #define P printf("%d\n", -1^~0);
+   #define M(P) int main()\
+             {\
+                P\
+                return 0;\
+             }
+    M(P)
+a) 1
+b) 0
+c) -1
+d) 2
+@ b
+In the following code, the P2 is Integer Pointer or Integer?
+           typedef int *ptr;
+           ptr p1, p2;
+a) Integer
+b) Integer pointer
+c) Error in declaration
+d) None of above
+@b
